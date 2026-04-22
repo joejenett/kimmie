@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+{%- include head.html -%}
+<body><span id="top"></span>
+
+	<div id="page-container">
+		{%- include header.html -%}
+
+		<main class="page-content" aria-label="Content">
+			<div class="wrapper">	
+				<p>
+					
+				</p>
+			</div>
+			<div class="wrapper">
+				{{ content }}
+			</div>
+		</main>
+		
+	<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+	<script>
+		SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '/search.json',
+			searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a> <small>({date})</small></li>',
+			noResultsText: 'No results found',
+			limit: 10,
+			fuzzy: false,
+			exclude: ['Welcome']
+		})
+	</script>
+
+	<script src="/js/switch.js"></script>
+</body>
+
+</html>
