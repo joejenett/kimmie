@@ -21,7 +21,7 @@
 		
 		<li>
 		<a class="gallery" href="{{ file.path | relative_url }}" title="{{ filename }}">
-			<img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path | relative_url }}&w=200&h=200&output=jpg&q=50&t=square&dpr=2" alt="{{ filename }}" title="{{ filename }}" /><span><!-- {{ filename }} --></span></a>
+			<img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ file.path | relative_url }}&w=160&h=160&output=jpg&q=50&t=square&dpr=2" alt="{{ filename }}" title="{{ filename }}" /><span><!-- {{ filename }} --></span></a>
 		</li>
 		{% endif %}
 	{% endif %}
