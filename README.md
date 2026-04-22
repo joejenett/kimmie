@@ -1,2 +1,2 @@
 # kimmie
-Kimmie’s Corner - something new for someone I love dearly!
+kimmie’s corner - something new for someone I love dearly!
