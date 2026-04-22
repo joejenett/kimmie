@@ -9,11 +9,11 @@
 }
 
 :root,[data-theme="light"] {
-	--base-color: #376f7f;
+	--base-color: #274e59;
 	--bg-color: #0f222c;
 	--br-bg-color: #eaeeee;
 	--meta-base-color: #999;
-	--a-sp-color: #376f7f;
+	--a-sp-color: #274e59;
 	--iwt-bg-color: #fbffff;
 }
 [data-theme="dark"] {
@@ -586,6 +586,9 @@ header.post-header h1.post-title.p-name {
 .post-content h3, .e-content h3 {
 	font-size:26px;
 }
+h3.tasty {
+	color: #376f7f;
+}
 main {
   display: block;
 }
@@ -1001,8 +1004,8 @@ h2 a.post-link {
 }
 .post-content h3 {
     font-size: 26px;
-	position:relative;
-	top:-1em;
+	/*position:relative;
+	top:-1em;*/
 }
 @media screen and (max-width: 800px) {
 	.post-content h3 {
