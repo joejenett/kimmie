@@ -42,7 +42,7 @@ body {
 	margin: auto;
 	padding: 0;
 }
-.image-gallery li img {
+.image-gallery li a img {
 	width: 200px;
 	height: 200px;
 	margin:4px;
