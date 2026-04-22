@@ -42,6 +42,12 @@ body {
 	margin: auto;
 	padding: 0;
 }
+.image-gallery li .gallery a img {
+	width: 200px;
+	height: 200px;
+	margin:4px;
+	border:1px solid white;
+}
 #page {
 		background-color:#e6edf2;
 		min-height:640px;
