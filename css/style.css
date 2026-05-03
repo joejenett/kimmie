@@ -42,6 +42,12 @@ body {
 	margin: auto;
 	padding: 0;
 }
+a {
+	cursor: pointer;
+}
+a:hover {
+	cursor:hand;
+}
 /*.image-gallery li a img {
 	width: 200px;
 	height: 200px;
