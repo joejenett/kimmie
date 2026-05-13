@@ -42,12 +42,12 @@ body {
 	margin: auto;
 	padding: 0;
 }
-a {
+/*a {
 	cursor: pointer;
 }
 a:hover {
 	cursor:hand;
-}
+}*/
 .image-gallery li a img:hover {
 	transform: scale(1.05);
 }
@@ -878,7 +878,7 @@ h1#site-title.p-name a.u-url.url {
 		width: 36px;
 		height: 36px;
 		z-index: 2;
-		cursor: pointer; 
+		/*cursor: pointer; */
 	}
 	.site-nav .menu-icon {
 		display: block;
