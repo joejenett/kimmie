@@ -49,7 +49,7 @@ a:hover {
 	cursor:hand;
 }
 .image-gallery li a img:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 /*.image-gallery li a img {
 	width: 200px;
